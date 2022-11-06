@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Arizonia&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DynaPuff&family=Inter:wght@400;500;600;700;800;900&family=Italianno&family=Jost:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Pattaya&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,500;1,700;1,900&family=Spectral:wght@200;300;400;500;600;700;800&family=Tangerine:wght@400;700&display=swap');
+
+.navbar{
+  position:fixed;
+  display:flex;
+  justify-content: space-between;
+  box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  /* background-color: rgb(248, 226, 194); */
+  background-color: hsl(0, 0%, 100%);
+}
+.toggle{
+  display: none;
+}
+.brand .logo{
+  height: 4.5rem;
+  margin-left: 80px;
+ 
+}
+.link{
+  font-size: 18px;
+  margin: 25px;
+  
+}
+.link .navlink{
+  margin: 2rem;
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link .navlink:hover{
+  color: gray;
+  text-decoration: underline;
+}
+.home{
+  height: 650px;
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'pattaya';
+  font-weight: 400;
+  font-style: normal;
+}
+.home-slogan{
+margin: auto;
+margin-left: 200px;
+font-size: 20px;
+}
+.home-btn{
+  width: 120px;
+  height: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background-color: rgb(229, 211, 188);
+  margin-left: 110px;
+}
+.about{
+  display: flex;
+  background-color: blanchedalmond;
+}
+.about-heading{
+  margin: auto;
+  font-size: 22px;
+    font-family: ui-serif;
+}
+.btn{
+  height: 45px;
+  width: 120px;
+  background-color: rgb(241, 220, 188);
+}
+.cont{
+  background-color: blanchedalmond;
+  display: flex;
+}
+.menu-card{
+  display: flex;
+  margin: 4rem;
+}
+.menu-card div{
+  text-align: center;
+  padding: 2rem;
+  font-family: fantasy;
+}
+.coffee-card{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, 25rem);
+ margin: 2rem;
+ justify-content: center;
+}
+.coffee-card div{
+  text-align: center;
+  font-family: fantasy;
+}
+.gallery{
+ height: 500px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery .g-heading{
+  display: block !important;
+  font-weight: 400;
+  font-size: 28px;
+  font-family: 'pattaya';
+  color: white;
+}
+.g-div2 div{
+  text-align: center;
+}
+.g-div2 .heading-1{
+  margin-top: 0px;
+    padding-top: 43px;
+    font-size: 24px;
+    color: #402a2a;
+    font-family: pattaya;
+}
+.g-div2 .g-pics{
+  display: flex;
+  justify-content: center;
+}
+.g-div2 .g-pics .descrip img{
+  height: 280px;
+ margin: 20px;
+ width: 280px;
+ border-radius: 10px;
+}
+.g-div2 .g-pics .descrip h3,h4{
+  font-family: pattaya;
+  font-weight: 400;
+}
+.form{
+  display: block;
+  justify-content: center;
+}
+.contact{
+  display: flex;
+align-items: center;
+background-color: blanchedalmond;
+}
+.contact .image img{
+  height: 650px;
+  position:static;
+  margin: 50px;
+}
+.contact .contact-form form{
+  text-align-last: center;
+  justify-items: center;
+  border: 2px solid black;
+  padding: 5px;
+  
+}
+.contact .contact-form .box{
+  display: block;
+  height: 40px;
+  border: 1px solid black;
+  margin: 15px;
+  width: 400px;
+}
+.contact .contact-form h3{
+  font-family: pattaya;
+  font-size: 22px;
+}
+.container{
+  margin-top:30px;
+}
