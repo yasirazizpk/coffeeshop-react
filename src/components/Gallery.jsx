@@ -5,7 +5,7 @@ function Gallery () {
     return (
            <>
              
-              <div className="gallery" style={{backgroundImage:`url("pics/coffee.png")`}}>
+              <div className="gallery" style={{backgroundImage:`url("pics/coffee.jpg")`}}>
                   <h3 className="g-heading">coffee from the best sunny plantation</h3>
                 
                 </div>
@@ -26,7 +26,7 @@ function Gallery () {
                     <h4>$13</h4>               
                       </div>
                       <div className="descrip">
-                      <img src="pics/gp-4.webp" alt="galerry" /> 
+                      <img src="pics/gp-4.jpeg" alt="galerry" /> 
                       <h3>cake slice coffee</h3> 
                       <h4>$20</h4>              
                       </div>
